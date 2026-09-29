@@ -1,0 +1,108 @@
+/* ==========================================================================
+   TANEDIT AI - Design Token System
+   Visual Language: Dark Bento Cards, Floating Pill Nav, Lime (#c6f135) Accent,
+   Notched Segmented Tabs, and High-Contrast White List Panel with Nested Dark Card.
+   ========================================================================== */
+
+:root {
+  /* Canvas & Dark Surfaces */
+  --bg-canvas: #0c0e12;
+  --bg-canvas-subtle: #101319;
+  --bg-card: #14171f;
+  --bg-card-elevated: #1a1e27;
+  --bg-card-hover: #1f2430;
+  --bg-card-active: #252b39;
+
+  /* Accent - Signature Electric Lime */
+  --accent-lime: #c6f135;
+  --accent-lime-hover: #d3f947;
+  --accent-lime-active: #b2db2c;
+  --accent-lime-glow: rgba(198, 241, 53, 0.28);
+  --accent-lime-dim: rgba(198, 241, 53, 0.12);
+  --text-on-lime: #0c0e12;
+
+  /* Pill Navigation */
+  --bg-pill-container: #ffffff;
+  --text-pill-default: #1e293b;
+  --bg-pill-hover: #f1f5f9;
+  --bg-pill-active: #c6f135;
+  --text-pill-active: #0c0e12;
+  --border-pill-container: rgba(255, 255, 255, 0.15);
+
+  /* Dark UI Borders & Dividers */
+  --border-dark: #202532;
+  --border-dark-subtle: rgba(255, 255, 255, 0.08);
+  --border-dark-hover: rgba(255, 255, 255, 0.16);
+  --border-dark-active: rgba(198, 241, 53, 0.5);
+
+  /* Dark Mode Typography */
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --text-dim: #475569;
+
+  /* Contrast White List Panel (As in Reference Image) */
+  --bg-white-panel: #ffffff;
+  --bg-white-panel-row: #ffffff;
+  --bg-white-panel-row-hover: #f8fafc;
+  --bg-white-panel-row-active: #f1f5f9;
+  --text-white-panel-primary: #0f172a;
+  --text-white-panel-secondary: #475569;
+  --text-white-panel-muted: #94a3b8;
+  --border-white-panel: #e2e8f0;
+  --border-white-panel-subtle: #f1f5f9;
+
+  /* Nested Dark Detail Card (Within White Panel) */
+  --bg-detail-card: #12151b;
+  --bg-detail-subcard: #1b1f28;
+  --bg-detail-subcard-hover: #222733;
+  --bg-detail-footer: #0f1116;
+  --border-detail-card: #222734;
+  --text-detail-primary: #f8fafc;
+  --text-detail-secondary: #94a3b8;
+  --text-detail-muted: #64748b;
+
+  /* Status Colors */
+  --status-draft-bg: #e2e8f0;
+  --status-draft-text: #334155;
+  --status-processing-bg: #fef3c7;
+  --status-processing-text: #92400e;
+  --status-ready-bg: #dcfce7;
+  --status-ready-text: #166534;
+  --status-exported-bg: rgba(198, 241, 53, 0.2);
+  --status-exported-text: #c6f135;
+  --status-danger-bg: #fee2e2;
+  --status-danger-text: #991b1b;
+
+  /* Radii */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-2xl: 24px;
+  --radius-3xl: 32px;
+  --radius-pill: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.2), 0 2px 4px -2px rgba(0, 0, 0, 0.15);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.35), 0 4px 6px -4px rgba(0, 0, 0, 0.25);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.45), 0 8px 10px -6px rgba(0, 0, 0, 0.35);
+  --shadow-panel: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  --shadow-lime: 0 8px 24px -4px var(--accent-lime-glow);
+
+  /* Typography */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: 'JetBrains Mono', 'SF Mono', 'Fira Code', Menlo, Monaco, Consolas, monospace;
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base: 220ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 350ms cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Aspect Overlays & Safe Zones */
+  --overlay-guide-color: rgba(198, 241, 53, 0.7);
+  --overlay-guide-dashed: 1px dashed rgba(198, 241, 53, 0.6);
+  --overlay-dim-color: rgba(0, 0, 0, 0.65);
+}
